@@ -23,7 +23,8 @@
 </head>
 <body>
 
-	<div class="sidebar">
+<!-- START SIDEBAR -->
+	<div class="sidebar" id="sidebar">
 		<div class="sidebar__avatar">
 			<img src="https://avatars.dicebear.com/api/adventurer-neutral/LS-0000000001.svg" class="sidebar__img">
 		</div>
@@ -45,8 +46,79 @@
 		</div>
 		<a href="#" class="sidebar__logout">Déconnexion</a>
 	</div>
+<!-- END SIDEBAR -->
 
-	<div class="chat">
+
+
+
+
+<!-- START FIL -->
+	<div class="fil" id="fil">
+		<header class="fil__header">
+			<a href="#"><img src="./assets/imgs/Logo_t.png" class="fil__header-logo"></a>
+			<div class="fil__header-nav">
+				<a href="#" class="fil__header-link"><i class="fas fa-home"></i>Accueil</a>
+				<a href="#" class="fil__header-link"><i class="fas fa-building"></i>Mon établissement</a>
+			</div>
+			<button type="button" class="fil__header-button"><i class="fas fa-plus"></i> Nouveau post</button>
+		</header>
+
+		<div class="fil__content">
+			<div class="fil__actus">
+				<div class="fil__post">
+					<div class="fil__post__profil">
+						<div class="fil__post__profil-left">
+							<img src="https://avatars.dicebear.com/api/adventurer-neutral/LS-0000000001.svg" class="fil__post-avatar">
+							<div class="fil__post-infos">
+								<h4>LS-0000000001</h4>
+								<h5>Le 08/09 à 01:56</h5>
+							</div>
+							<div class="fil__post-badge admin">ADMIN</div>
+						</div>
+						<div class="fil__post__profil-right">
+							<a href="#"><i class="fas fa-exclamation-circle"></i> Signaler</a>
+							<a href="#"><i class="far fa-heart"></i> J'aime</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="fil__top">
+				<h1 class="fil__top-title">TOP 10 LS POINTS</h1>
+				<div class="fil__top-item">
+					<div class="fil__top__user">
+						<img src="https://avatars.dicebear.com/api/adventurer-neutral/LS-0000000001.svg" class="fil__top__user-avatar">
+						<div class="fil__top__user-infos">
+							<h4>LS-0000000001</h4>
+							<h5><b>1000</b> LS Points</h5>
+						</div>
+					</div>
+					<div class="fil__top__num premier">
+						1
+					</div>
+				</div>
+				<div class="fil__top-item">
+					<div class="fil__top__user">
+						<img src="https://avatars.dicebear.com/api/adventurer-neutral/LS-0000000001.svg" class="fil__top__user-avatar">
+						<div class="fil__top__user-infos">
+							<h4>LS-0000000001</h4>
+							<h5><b>1000</b> LS Points</h5>
+						</div>
+					</div>
+					<div class="fil__top__num premier">
+						1
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- END FIL -->
+
+
+
+
+
+<!-- START CHAT -->
+	<div class="chat" id="chat">
 		<div class="chat__header">
 			Chat en direct
 		</div>
@@ -81,6 +153,7 @@
 			</form>
 		</div>
 	</div>
+<!-- END CHAT -->
 
 </body>
 </html>

@@ -14,4 +14,18 @@ body {
 	height: 100vh;
 	background: #f1f1f1;
 	color: #333333;
+	display: grid;
+	grid-template-columns: 300px 1fr 500px;
+}
+
+#sidebar {
+	grid-column: 1;
+}
+
+#fil {
+	grid-column: 2;
+}
+
+#chat {
+	grid-column: 3;
 }
