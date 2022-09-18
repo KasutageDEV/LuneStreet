@@ -23,5 +23,17 @@
 			</div>
 		</div>
 
-		<button type="button" class="chat__addMessage">Envoyer un message</button>
+		<button type="button" class="chat__addMessage" id="OpenModal">Envoyer un message</button>
+
+		<div id="ChatModal">
+			<div class="chatModal">
+				<button type="button" class="closeModal" id="CloseModal"><i class="fi fi-rr-cross-small"></i></button>
+				<div class="chatModal__box">
+					<form method="POST" action="" id="FormModal">
+						<textarea id="ChatModalInput" placeholder="Message..."></textarea>
+						<button type="submit">Envoyer</button>
+					</form>
+				</div>
+			</div>
+		</div>
 	</div>
