@@ -1,3 +1,6 @@
+/*COMPONENTS*/
+@import './components/post.css';
+
 /*LAYOUTS*/
 @import './layouts/sidebar.css';
 @import './layouts/fil.css';
