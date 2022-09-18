@@ -104,6 +104,24 @@
 	font-size: 13px;
 }
 
+.chat__addMessage {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	border: none;
+	outline: none;
+	background: linear-gradient(90deg, #00E0DE 0%, #00F2F0 100%);
+	width: 100%;
+	height: auto;
+	padding: 20px 0;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 100px 100px 0 0;
+	cursor: pointer;
+}
+
 .chat__form {
 	position: absolute;
 	bottom: 0;
